@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS REFRESHERS</title>
+     <script>
+
+
+          "use strict";
+    
+        // let a=5;
+        // const a=45
+        let a=89;
+        a=4546+4;
+        console.log(a);
+           
+        // Number
+        // objects
+        // Boolean --  true or false
+        // string 
+        // undefined 
+        // null
+        
+
+        function hello()
+        {
+            console.log("hey akhil ")
+        }
+
+        let obj1={
+            r:36,
+            m:35,
+            funct: function myfunc(number)
+            {
+                console.log("The number is "+number);
+            }
+        }
+
+        document.addEventListener("click",function click()
+        {
+            console.log("clicked");
+            alert("hello");
+            let conf=confirm("Are you sure ? ");
+            console.log(conf);
+        })
+
+        let arr=[34,35,67];
+        for(let i=0;i<arr.length;i++)
+        {
+                 const element=arr[i];
+        }
+
+        console.log(arr)
+
+    //   function myfunc(number)
+    //   {
+    //     console.log("The number is "+this)
+    //   }
+  let mobj ={
+    a:this,
+      myfunc : (number)=>{
+        console.log("The number is "+ this)
+
+      }
+    }
+       mobj.myfunc();
+       console.log(mobj.a)
+
+        setTimeout(()=>
+        {
+            console.log("yyyy")
+        })
+        console.log("I am the below script");
+
+        
+     </script>
+</head>
+<body>
+
+    <h1>Hey I am learning JS</h1>
+</body>
+</html>
