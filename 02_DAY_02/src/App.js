@@ -16,7 +16,7 @@ function App() {
   }
   return (
     <div className=" items-center w-[vw100] h-[100vh] flex justify-center bg-[#557296] flex-col gap-10">
-      <div className=" flex justify-center text-[#0398d4] font-medium text-2xl">
+      <div className=" flex justify-center text-[#0398d4] font-medium text-2xl ">
         Increment && Decrement
       </div>
       <div className=" flex  justify-center bg-white gap-20 p-3 rounded-sm text-[25px] text-[#344151]">
